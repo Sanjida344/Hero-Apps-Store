@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@tailwind utilities;
+@tailwind utilities;
+
+/* font */
+body { font-family: 'Poppins', sans-serif; background: #f8fafb; color: #0f172a; }
+
+/* small helpers */
+.btn {
+  @apply px-4 py-2 rounded-md;
+}
